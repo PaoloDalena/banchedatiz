@@ -1,11 +1,54 @@
 Package: banchedatiz
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Utilizzo Statistico di Banche Dati Economiche Online Unofficial Helper
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
-Encoding: UTF-8
+Authors@R: person("Paolo", "Dalena", email = "paolodalena97@gmail.com",
+    role = c("aut", "cre"))
+Maintainer: Paolo Dalena <paolodalena97@gmail.com>
+Description: banchedatiz è un pacchetto R che racchiude tutte le funzioni e i
+    dati utili a facilitare la vita per gli studenti che frequentano
+    l'insegnamento Utilizzo Statistico di Banche Dati Economiche Online tenuto
+    dal prof. Alboni presso l'Alma Mater - Università di Bologna.
+    Per una maggiore comprensione di come utilizzare le risorse disponibili
+    si rimanda alle dispense del Corso disponibili online.
+    Tutto il materiale è frutto del lavoro dei professori responsabili dell'
+    insegnamento, qui solamente riunito per facilitarne l'utilizzo, senza
+    alcuna autorizzazione da parte dell'UniBo.
+License: GPL-3
 LazyData: true
+Imports: 
+    dplyr,
+    twitteR,
+    httpuv,
+    rtweet,
+    descr,
+    scales,
+    ggplot2,
+    RColorBrewer,
+    ngram,
+    tm,
+    wordcloud,
+    koRpus,
+    koRpus.lang.it,
+    syuzhet,
+    sqldf
+Suggests: 
+    dplyr,
+    twitteR,
+    httpuv,
+    rtweet,
+    descr,
+    scales,
+    ggplot2,
+    RColorBrewer,
+    ngram,
+    tm,
+    wordcloud,
+    koRpus,
+    koRpus.lang.it,
+    syuzhet,
+    sqldf,
+    RODBC,
+    readxl,
+    foreign
+Encoding: UTF-8

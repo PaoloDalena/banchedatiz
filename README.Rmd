@@ -1,0 +1,44 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+#banchedatiz: Utilizzo Statistico di Banche Dati Economiche Online Unofficial Helper <img src="man/figures/logo.png" align="right" width="200" />
+
+
+
+## Overview
+`banchedatiz` è un pacchetto R che racchiude tutte le funzioni e i dati utili a facilitare la vita per gli studenti che frequentano l'insegnamento *Utilizzo Statistico di Banche Dati Economiche Online* tenuto dal prof. Alboni presso l'*Alma Mater - Università di Bologna*.
+Per una maggiore comprensione di come utilizzare le risorse disponibili si rimanda alle dispense del Corso disponibili online.
+Tutto il materiale è frutto del lavoro dei professori responsabili dell'insegnamento, qui solamente riunito per facilitarne l'utilizzo, *senza alcuna autorizzazione da parte dell'UniBo*.
+**Buona fortuna!**
+
+
+## Installation
+
+You can install the development version from [GitHub](https://github.com/PaoloDalena/banchedatiz) with the following procedure:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("PaoloDalena/banchedatiz")
+```
+
+## Feature request
+If you need some more features, please open an issue on
+[github](https://github.com/PaoloDalena/banchedatiz/issues).
+
+
+## Bug reports
+If you encounter a bug, please file a
+[reprex](https://github.com/tidyverse/reprex)
+(minimal reproducible example) on
+[github](https://github.com/PaoloDalena/banchedatiz/issues).

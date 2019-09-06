@@ -15,12 +15,13 @@
 #' \dontrun{
 #'
 #' tw_amala <- search_tweets(
-#' q = "inter",n = 5000,type = "recent",include_rts = T,lang="it"
+#' q = "inter", n = 5000, type = "recent", include_rts = T, lang="it"
 #' )
 #'
 #' andamento(tw_amala, "38 mins", grafico = F)
 #' andamento(tw_amala, "2 hours", grafico = T)
 #' }
+#' @export
 
 andamento <- function(twtbl, freq, grafico = TRUE){
   tab <- twtbl %>%

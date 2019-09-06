@@ -32,7 +32,8 @@ Imports:
     koRpus.lang.it,
     syuzhet,
     sqldf,
-    stringr
+    stringr,
+    httr
 Suggests: 
     dplyr,
     twitteR,

@@ -49,7 +49,7 @@ q = "inter", n = 5000, type = "recent", include_rts = T, lang="it"
 )
 
 cleanTxt(
-tw_amala,
+tw_amala$text,
 conv = TRUE,
 hash = TRUE,
 mention = TRUE,

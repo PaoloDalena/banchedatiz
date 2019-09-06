@@ -32,7 +32,7 @@
 #' )
 #'
 #' cleanTxt(
-#' tw_amala,
+#' tw_amala$text,
 #' conv = TRUE,
 #' hash = TRUE,
 #' mention = TRUE,
@@ -51,14 +51,7 @@ cleanTxt <- function(
   numeri = FALSE,
   minusc = TRUE
   ){
-  # funzione per la pulizia dei tweet
-  # x = vettore di testi (tweet)
-  # hash = logico, se TRUE rimuove per intero gli hashtag
-  # hashlist = list con gli hashtag (necessario se hash = FALSE)
-  # mention = logico, se TRUE rimuove per intero le mention @
-  # mentlist = list con mention (necessario se mention = FALSE)
-  # numeri = logico, se TRUE rimuove tutti i numeri dai messaggi
-  # minusc = logico, se TRUE trasforma in minuscolo tutti i testi
+
   if(is.null(x) | class(x) != "character"){
     message("vettore testi non valido")
     return()

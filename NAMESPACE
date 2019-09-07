@@ -3,5 +3,6 @@
 export(andamento)
 export(cleanTxt)
 export(doWrdCld)
+export(lemmaTDM)
 export(login)
 export(visNGram)
